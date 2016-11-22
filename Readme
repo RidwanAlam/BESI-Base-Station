@@ -1,0 +1,7 @@
+python basestation laptop files for use with the BESI project
+
+the stream*.py files are used to receive data in realtime from Beaglebones over Wi-Fi
+streamBaseStation.py is the top level file
+
+the process*.py files are used to process and plot data after it has been received. 
+processLastSession is the top level file
