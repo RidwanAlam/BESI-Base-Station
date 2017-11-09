@@ -16,20 +16,22 @@ ySens=83.0
 zSens=83.0
 
 # Section 2: Shimmer Bluetooth IDs 
-ShimmerID_1=80:DC:E7
-ShimmerID_2=80:DC:EE
-ShimmerID_3=A0:5F:09
+#ShimmerID_1=80:DC:E7
+#ShimmerID_2=80:DC:EE
+#ShimmerID_3=A0:5F:09
 
 # Section 3: Parameters specific to a deployment
 # if PLOT=False, no plots are displayed
 PLOT=True
-numRelayStat=7   
+numRelayStat=1   
 DeploymentID=25
+DeploymentToken=1a79ee75e7328538f9df96bdc7e22f9d17ae398e
 networkNum=1
 
 # Section 4: amount of data stored in a single file in seconds and days
 fileLengthSec=0
 fileLengthDay=1
+hostIP=193.168.0.1
 
 # Section 5:Parameters per relay station
 # The port number also acts as a relay station ID
@@ -37,53 +39,53 @@ fileLengthDay=1
 # sensors marked as False will be ignored for that relay station
 
 # 1st Relay station
-PORT=9999
-USE_ACCEL=True
-USE_LIGHT=True
-USE_ADC=True
-USE_WEATHER=True
+PORT=9000
+#USE_ACCEL=True
+#USE_LIGHT=True
+#USE_ADC=True
+#USE_WEATHER=True
 
 # 2nd Relay Station
-PORT=10004
-USE_ACCEL=True
-USE_LIGHT=True
-USE_ADC=True
-USE_WEATHER=True
+#PORT=10004
+#USE_ACCEL=True
+#USE_LIGHT=True
+#USE_ADC=True
+#USE_WEATHER=True
 
 # 3rd Relay Station
-PORT=10009
-USE_ACCEL=False
-USE_LIGHT=False
-USE_ADC=False
-USE_WEATHER=True
+#PORT=10009
+#USE_ACCEL=False
+#USE_LIGHT=False
+#USE_ADC=False
+#USE_WEATHER=True
 
 # 4th Relay station
-PORT=10014
-USE_ACCEL=True
-USE_LIGHT=True
-USE_ADC=True
-USE_WEATHER=True
+#PORT=10014
+#USE_ACCEL=True
+#USE_LIGHT=True
+#USE_ADC=True
+#USE_WEATHER=True
 
 # 5th Relay Station
-PORT=10019
-USE_ACCEL=True
-USE_LIGHT=True
-USE_ADC=True
-USE_WEATHER=True
+#PORT=10019
+#USE_ACCEL=True
+#USE_LIGHT=True
+#USE_ADC=True
+#USE_WEATHER=True
 
 # 6th Relay Station
-PORT=10024
-USE_ACCEL=False
-USE_LIGHT=False
-USE_ADC=False
-USE_WEATHER=True
+#PORT=10024
+#USE_ACCEL=False
+#USE_LIGHT=False
+#USE_ADC=False
+#USE_WEATHER=True
 
 # 7th Relay Station
-PORT=10029
-USE_ACCEL=False
-USE_LIGHT=False
-USE_ADC=False
-USE_WEATHER=True
+#PORT=10029
+#USE_ACCEL=False
+#USE_LIGHT=False
+#USE_ADC=False
+#USE_WEATHER=True
 
 
 # Leave this comment at the end of the file
