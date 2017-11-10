@@ -1,5 +1,3 @@
-## this is the MAIN file
-
 import stream
 import multiprocessing
 from parameters import *
