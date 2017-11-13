@@ -1,7 +1,6 @@
 # the stream_process function receives and plots sensor data from a single BBB
 from datetime import datetime
 from hbProcUtils import *
-from parameters import *
 from colorama import init
 import time
 import os
