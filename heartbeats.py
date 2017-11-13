@@ -1,3 +1,5 @@
+# this is the MAIN script
+
 import multiprocessing
 import multiprocessing.forking
 import os
