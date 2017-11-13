@@ -86,34 +86,6 @@ if __name__ == '__main__':
         
     
     
-    # Create folders for each sensor
-#     for relay_stat in ports:
-#         relay_station_folder = data_folder + "Relay_Station_{}/".format(relay_stat)
-#         if not os.path.exists(relay_station_folder):
-#             os.mkdir(relay_station_folder)  
-#         #if not os.path.exists(relay_station_folder + "Accelerometer"):
-#         #    os.mkdir(relay_station_folder + "Accelerometer")
-#         if not os.path.exists(relay_station_folder + "Temperature"):
-#             os.mkdir(relay_station_folder + "Temperature")
-#         if not os.path.exists(relay_station_folder + "Light"):
-#             os.mkdir(relay_station_folder + "Light")
-#         if not os.path.exists(relay_station_folder + "Audio"):
-#             os.mkdir(relay_station_folder + "Audio")
-#         if not os.path.exists(relay_station_folder + "Door"):
-#             os.mkdir(relay_station_folder + "Door")
-#         if not os.path.exists(relay_station_folder + "Humidity"):
-#             os.mkdir(relay_station_folder + "Humidity")
-#         if not os.path.exists(relay_station_folder + "Pressure"):
-#             os.mkdir(relay_station_folder + "Pressure")
-#         if not os.path.exists(relay_station_folder + "Pebble"):
-#             os.mkdir(relay_station_folder + "Pebble")
-#         if not os.path.exists(relay_station_folder + "Heartbeat"):
-#             os.mkdir(relay_station_folder + "Heartbeat")
-#         
-    #print "Relay Station IDs: ",ports
-    #print "Use Accelerometer: ",useAccel
-    #print "Use Microphone and Temperature Sensor: ",useADC
-    #print "Use Light Sensor", useLight
     
     # create a mutual exclusion lock so only one process prints at a time
     lock = multiprocessing.Lock()
