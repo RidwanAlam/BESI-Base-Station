@@ -2,7 +2,6 @@
 from datetime import datetime
 from hbProcUtils import *
 from parameters import *
-from processSession import processSession
 from colorama import init
 import time
 import os
