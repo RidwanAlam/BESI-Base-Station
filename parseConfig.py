@@ -141,6 +141,13 @@ def parseConfig():
                     #print "IP: ",basename
             except:
                 print "Error processing deployment token"
+
+            try:
+                if splitLine[0] == "NotificationTime":
+                    notiTime = splitLine[1].split(":") #notiTime = ['hour', 'minute']
+
+            except:
+                print "Error processing notification time"
             
             try:   
                 if splitLine[0] == "PORT":
@@ -160,4 +167,4 @@ def parseConfig():
             except:
                 print "Error processing relay station parameters"
                 
-    return basename, ports, useAccel, useLight, useADC, useWeather, numRelayStat, fileLengthSec, fileLengthDay, DeploymentID, token, networkNum
+    return basename, ports, useAccel, useLight, useADC, useWeather, numRelayStat, fileLengthSec, fileLengthDay, DeploymentID, token, networkNum, notiTime
