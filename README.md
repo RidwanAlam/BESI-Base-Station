@@ -1,6 +1,12 @@
 # BESI-Base-Station
 The code for the base-station of the BESI system [1].
 
+The base-station is implemented on a laptop with 
+an Intel i3 2.3 GHz processor, 4 GB of RAM, 300 GB HDD, and Windows 7. 
+It is equipped with internet connectivity via Ethernet and it connects 
+to the local wireless network using its Wi-Fi adapter. 
+A USB cellular modem for internet connectivity is also provided with the base-station. 
+
 
 <h4>References:</h4>
 <ol>
